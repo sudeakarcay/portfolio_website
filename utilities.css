@@ -1,0 +1,41 @@
+/* text colors */
+
+.text-primary{
+    color: blueviolet;
+}
+
+.text-secondary{
+    color: rgb(15, 175, 224);
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: blueviolet;
+    background-color:rgb(244, 244, 167);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+    background-color: rgb(237, 237, 77);
+}
+
+.btn-primary{
+    background: rgb(237, 237, 45);
+    color: black;
+}
+.btn-secondary{
+    background: rgb(60, 127, 221);
+    color: black;
+}
+.btn-dark{
+    background: rgb(77, 16, 118);
+    color: black;
+}
+.btn-light{
+    background: rgb(226, 226, 94);
+    color: rgb(255, 255, 255);
+}

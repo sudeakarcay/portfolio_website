@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./utilities.css">
+    <link rel="stylesheet" href="app.js">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <title>Sude Akarçay</title>
 </head>
@@ -21,13 +22,15 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </nav>
+                <div class="theme-btn">
+                    <i class="fas fa-adjust"></i>
+                </div>
         </div>
+        
         
         <div class="content">
             <img class="me" src="./image/image.png" alt="me">
             <h1>Hi I'm <span class="text-primary">Sude</span></h1>
-            <p>I'm a Student</p>
             <a href="#about" class="btn"><i class="fas fa-chevron-right"></i>Know More About Me</a>
         </div>
 
@@ -52,7 +55,7 @@
                             <div class="progress-bar">
                                 <p class="prog-title">html5</p>
                                 <div class="progress-con">
-                                   <p class="prog text">70%</p>
+                                   <p class="prog text">85%</p>
                                    <div class="progress">
                                     <span class="html"></span>
                                    </div>
@@ -61,7 +64,7 @@
                             <div class="progress-bar">
                                 <p class="prog-title">css3</p>
                                 <div class="progress-con">
-                                   <p class="prog text">65%</p>
+                                   <p class="prog text">75%</p>
                                    <div class="progress">
                                     <span class="css3"></span>
                                    </div>
@@ -70,7 +73,7 @@
                             <div class="progress-bar">
                                 <p class="prog-title">c</p>
                                 <div class="progress-con">
-                                   <p class="prog text">60%</p>
+                                   <p class="prog text">50%</p>
                                    <div class="progress">
                                     <span class="c"></span>
                                    </div>
@@ -127,59 +130,53 @@
 
                 <!-- Portfolio -->
 
-            <section  id="portfolio">
-                <div class="main-title">
-                    <h1>My <span class="text-primary">Portfolio</span></h1>
-                </div>
-                <section class="page-contain">
-                    <a href="#" class="data-card">
-                      <h3>Project One</h3>
-                      <h4>Game</h4>
-                      <p>This is my OpenGL project.Devamı gelecek</p>
-                      <span class="link-text">
-                        View Project
-                        <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
-                  </svg>
-                      </span>
-                    </a>
-                    <a href="#" class="data-card">
-                      <h3>Project Two</h3>
-                      <h4>Game</h4>
-                      <p>This is a firing game on OpenGL.</p>
-                      <span class="link-text">
-                        View Project
-                        <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
-                  </svg>
-                      </span>
-                    </a>
-                    <a href="#" class="data-card">
-                      <h3>Project Three</h3>
-                      <h4>Game</h4>
-                      <p>This is my OpenGL project.Devamı gelecek</p>
-                      <span class="link-text">
-                        View Project
-                        <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
-                  </svg>
-                      </span>
-                    </a>
-                    <a href="#" class="data-card">
-                      <h3>Project Four</h3>
-                      <h4>Website</h4>
-                      <p>This is my first HTML5 CSS3 project. It is a hotel website</p>
-                      <span class="link-text">
-                        View Project
-                        <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
-                  </svg>
-                      </span>
-                    </a>
-                   
-                  </section>
+                <section id="portfolio">
+                    <div class="main-title">
+                <h1>My <span class="text-primary">Portfolio</span></h1>
+            </div>
+                <div class="card">
 
+                    <div class="title">Project One</div>
+                  
+                    <div class="icon">
+                      <svg enable-background="new 0 0 512 512" height="512px" id="Layer_1" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M468.493,101.637L371.955,5.098H159.57v77.231H43.724v424.769h308.923v-77.231h115.846V101.637z   M371.955,32.401l69.236,69.235h-69.236V32.401z M63.031,487.79V101.637h173.769v96.538h96.538V487.79H63.031z M256.108,109.632  l69.236,69.235h-69.236V109.632z M352.647,410.56V178.867l-96.538-96.538h-77.231V24.406h173.769v96.538h96.538V410.56H352.647z" fill="#37404D"/></svg>
+                    </div><!--/icon-->
+                  
+                    <div class="features">
+                      
+                      <a href="https://github.com/sudeakarcay/portfolio">View Here <br><i class="fab fa-github"></i></a>  
+                    </div><!--/features-->
+                  
+                  </div><!--/card-->
+                <div class="card">
 
+                    <div class="title">Project Two</div>
+                  
+                    <div class="icon">
+                      <svg enable-background="new 0 0 512 512" height="512px" id="Layer_1" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M468.493,101.637L371.955,5.098H159.57v77.231H43.724v424.769h308.923v-77.231h115.846V101.637z   M371.955,32.401l69.236,69.235h-69.236V32.401z M63.031,487.79V101.637h173.769v96.538h96.538V487.79H63.031z M256.108,109.632  l69.236,69.235h-69.236V109.632z M352.647,410.56V178.867l-96.538-96.538h-77.231V24.406h173.769v96.538h96.538V410.56H352.647z" fill="#37404D"/></svg>
+                    </div><!--/icon-->
+                  
+                    <div class="features">
+                      
+                        <a href="https://github.com/sudeakarcay/hotel_website">View Here  <br><i class="fab fa-github"></i></a>
+                    </div><!--/features-->
+                  
+                  </div><!--/card-->
+                <div class="card">
+
+                    <div class="title">Project Three</div>
+                  
+                    <div class="icon">
+                      <svg enable-background="new 0 0 512 512" height="512px" id="Layer_1" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M468.493,101.637L371.955,5.098H159.57v77.231H43.724v424.769h308.923v-77.231h115.846V101.637z   M371.955,32.401l69.236,69.235h-69.236V32.401z M63.031,487.79V101.637h173.769v96.538h96.538V487.79H63.031z M256.108,109.632  l69.236,69.235h-69.236V109.632z M352.647,410.56V178.867l-96.538-96.538h-77.231V24.406h173.769v96.538h96.538V410.56H352.647z" fill="#37404D"/></svg>
+                    </div><!--/icon-->
+                  
+                    <div class="features">
+                        <a href="https://github.com/sudeakarcay/Animation-Project-1">View Here<br> <i class="fab fa-github"></i></a>
+                    </div><!--/features-->
+                  
+                  </div><!--/card-->
+
+                </section>
                   <!--contact-->
                   <section  id="contact">
                     <div class="contact-container">
@@ -190,7 +187,7 @@
                         </div>
                         <div class="contact-content-con">
                             <div class="right-contact">
-                                <form action="" class="contact-form">
+                                <form action=""  class="contact-form">
                                     <div class="input-control i-c-2">
                                         <input type="text" required placeholder="Name">
                                         <input type="email" required placeholder="Email">
@@ -213,6 +210,6 @@
         <p>Copyright &copy; 2022 - Created by Sude Akarçay</p>
 
     </footer>
-    
+    <script src="app.js"></script>
 </body>
 </html>
